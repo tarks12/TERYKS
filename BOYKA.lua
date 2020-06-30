@@ -7539,7 +7539,6 @@ local BOYKA_Msg = {
 'لابسك لتلح',
 'كول حبيبي ؟ اني '..Namebot..'',
 'ها حبي وياك مكتب ئلسيد .',
-'عيون تيركس 💓',
 'عمري فداك '..Namebot..' كول حب'
 }
 send(msg.chat_id_, msg.id_,'['..BOYKA_Msg[math.random(#BOYKA_Msg)]..']') 
@@ -8125,7 +8124,7 @@ return false
 end
 if text == 'بوت' then
 Namebot = (database:get(bot_id..'Name:Bot') or 'تيركس')
-send(msg.chat_id_, msg.id_,'تفضل حبي اسمي ['..Namebot..'] 🍫💓') 
+send(msg.chat_id_, msg.id_,'اسمي القميل['..Namebot..']') 
 end
 if text == 'الاحصائيات' then
 if Sudo(msg) then 
